@@ -4,5 +4,9 @@ export default defineNuxtConfig({
   modules: ["@nuxt/image"],
   image: {
     provider: "ipx",
+    domains: ['test-nuxt-image.netlify.app'], // Replace with your Netlify domain
+    ipx: {
+      // Your IPX configuration options
+    },
   },
 })
