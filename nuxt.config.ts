@@ -2,11 +2,11 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxt/image"],
-  image: {
-    provider: "ipx",
-    ipx: {
-      domains: ['https://test-nuxt-image.netlify.app'], // Replace with your Netlify domain
-      // Your IPX configuration options
-    },
-  },
+  // image: {
+  //   provider: "ipx",
+  //   ipx: {
+  //     domains: ['https://test-nuxt-image.netlify.app'], // Replace with your Netlify domain
+  //     // Your IPX configuration options
+  //   },
+  // },
 })
